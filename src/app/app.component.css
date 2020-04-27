@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    color:orange;
+    padding: 20px;
+    margin: 20px auto 20px auto;
+        
+}
+.custom{
+    background-position-x: center;
+    background-position-y: center;
+    align-content:center;
+    background-color:lightgrey;
+    
+}

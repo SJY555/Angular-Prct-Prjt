@@ -1,0 +1,15 @@
+
+<ul class="list-group" *ngFor="let list of nameList;let i=index">
+   
+    <li class="list-group-item">
+        <span style="border-style: solid;"></span>
+        <span>{{list.name}}</span>
+        <span class="buttonSpacing ">
+            <a (click)="onDone(i)">Done</a>
+            <a (click)="onTrash(i)">
+                <span class="glyphicon glyphicon-trash gap"></span>
+            </a>
+        </span>
+    </li>
+    
+    </ul>

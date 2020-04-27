@@ -1,0 +1,14 @@
+.list-group-item{
+    display: inline-block;
+    padding-left: 0px;
+}
+.buttonSpacing{
+    margin-left: 100px;
+    
+    padding: 2px;
+}
+
+.glyphicon {
+color: black;
+
+}
